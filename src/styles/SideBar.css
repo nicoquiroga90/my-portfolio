@@ -1,0 +1,33 @@
+.sidebar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 200px;
+  background-color: auto;
+  text-align: left;
+  padding: 5px;
+}
+
+.sidebar h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-link {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: inherit;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.dark-theme .sidebar-link {
+  color: white;
+}
